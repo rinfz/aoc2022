@@ -14,5 +14,10 @@ public abstract class Problem
     {
         return File.ReadAllLines(InputPath(filename)).ToList();
     }
+
+    public string Text(string filename)
+    {
+        return File.ReadAllText(InputPath(filename));
+    }
 }
 
