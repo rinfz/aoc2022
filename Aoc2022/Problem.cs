@@ -17,7 +17,7 @@ public abstract class Problem
 
     public string Text(string filename)
     {
-        return File.ReadAllText(InputPath(filename));
+        return File.ReadAllText(InputPath(filename)).TrimEnd();
     }
 }
 
