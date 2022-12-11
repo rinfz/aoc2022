@@ -1,4 +1,4 @@
 ﻿using Aoc2022;
 
-var problem = new Day10();
+var problem = new Day11();
 problem.Solve();
